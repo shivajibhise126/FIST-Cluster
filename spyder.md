@@ -17,7 +17,7 @@ module load conda
 ```
 jupyter --runtime-dir
 ```
-![Runtime Directory](i1.png)
+![Runtime Directory](Images/i1.png)
 
 4.) Launch a spyder kernel using the following command
 
@@ -25,7 +25,7 @@ jupyter --runtime-dir
 python3 -Xfrozen_modules=off -m spyder_kernels.console
 ```
 
-![Spyder kernel](i2.png)
+![Spyder kernel](Images/i2.png)
 
 Leave this terminal running on your login. Also, the ".json" file is been shown after the "--existing".
 
@@ -47,23 +47,23 @@ We kept this kernel file on home directory for easy access. You can keep it in a
 
 6.) Open Spyder on your machine and go the "Consoles" on the the topdown panel.
 
-![Console](i3.png)
+![Console](Images/i3.png)
 
 Here, select "Connect to an existing kernel". We get the following window.
 
-![Console window](i4.png)
+![Console window](Images/i4.png)
 
 4.) In the "Kernel ID/Connection file" browse and select the ".json" file which we have copied previously.
 
-![Kernel ID](i5.png)
+![Kernel ID](Images/i5.png)
 
 5.) Select the "This is a remote kernel(via SSH)". Fill in the "Hostname" and "password" of your login in the cluster.
 
-![SSH connection](i6.png)
+![SSH connection](Images/i6.png)
 
 Select Ok, the kernel is now connected.
 
-![Connected kernel](i7.png)
+![Connected kernel](Images/i7.png)
 
 The kernel is connected remotely to the cluster through your login.
 
